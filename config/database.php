@@ -2,10 +2,10 @@
 namespace config; 
 return array(
 	"driver" => "mysql",
-	"host" => "localhost",
-	"user" => "alanhedz",
-	"pass" => "lol123",
-	"database" => "forodb",
+	"host" => "host",
+	"user" => "user",
+	"pass" => "pass",
+	"database" => "name_database",
 	"charset" => "utf8"
 );
 ?>
