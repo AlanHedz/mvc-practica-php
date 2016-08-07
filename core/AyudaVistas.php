@@ -1,0 +1,13 @@
+<?php  
+namespace core;
+
+class AyudaVistas
+{
+	public function url($controlador=CONTROLADOR_DEFAULT,$accion=ACCION_DEFECTO)
+	{
+		$urlString="index.php?controller=".$controlador."&action=".$accion;
+		return $urlString;
+	}
+}
+
+?>
